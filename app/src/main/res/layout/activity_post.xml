@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PostActivity">
+
+
+    <include
+        android:id="@+id/post_toolbar"
+        layout="@layout/app_bar"></include>
+
+    <ImageButton
+        android:id="@+id/select_post_image"
+        android:layout_below="@+id/post_toolbar"
+        android:layout_width="match_parent"
+        android:scaleType="centerCrop"
+        android:layout_height="300dp"
+        android:src="@drawable/new_image"
+        android:background="#fff" />
+
+    <EditText
+        android:id="@+id/post_discripition"
+        android:layout_below="@+id/select_post_image"
+        android:layout_margin="15dp"
+        android:maxLines="2"
+        android:hint="Add Description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/update_post_button"
+        android:layout_below="@id/post_discripition"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:text="Add POst"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="Add Post"
+        android:id="@+id/add_post"></item>
+    <item
+        android:title="Find Friends"
+        android:id="@+id/find_friends"></item>
+
+    <item
+        android:title="Update Profile"
+        android:id="@+id/settings"></item>
+
+    <item
+        android:title="Log Out"
+        android:id="@+id/log_out"></item>
+</menu>
